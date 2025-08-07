@@ -25,5 +25,17 @@ This project focuses on optimizing the purchase order handling process within a 
 
  Use Python and PM4Py to explore and preprocess the log file, and Celonis for advanced process analysis.
 
+## 📦 Libraries Used
+
+- `pandas` – For loading and manipulating tabular datasets.
+- `numpy` – For numerical operations and array management.
+- `matplotlib.pyplot`, `seaborn` – For creating statistical visualizations and insightful plots.
+- `wordcloud` – To generate word clouds that visualize the most frequent terms in textual data.
+- `scipy.stats` – Used for statistical analysis, specifically `chi2_contingency` to test for associations between categorical variables.
+- `pm4py` – A comprehensive process mining library used for:
+  - Converting event logs into process models
+  - Evaluating process models based on generalization and simplicity
+- `os` – For interacting with the file system (e.g., reading directories or file paths).
+- `google.colab` – Used to mount and access Google Drive files when running in Google Colab.
 
 
